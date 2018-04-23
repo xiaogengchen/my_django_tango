@@ -21,6 +21,7 @@
             The specified category does not exist!
         {% endif %}
     </div>
+    <a href="{% url 'add_page' category.slug %}">Add a new page</a>
     <a href="{% url 'index' %}">返回首页</a>
 </body>
 </html>
