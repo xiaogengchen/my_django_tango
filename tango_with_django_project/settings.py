@@ -132,3 +132,4 @@ MEDIA_URL = '/media/'
 # print(os.path.dirname(__file__))
 # print(os.path.dirname(os.path.dirname(__file__)))
 
+LOGIN_URL = '/rango/login/'
