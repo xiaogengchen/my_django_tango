@@ -5,6 +5,8 @@
 {% endblock %}
 {% block body_block %}
     <h1>Rango says...</h1>
+{#    <p>visits: {{ request.COOKIES.visits }}</p>#}
+    <p>visits: {{ visits }}</p>
     {% if user.is_authenticated %}
         <div>
             howdy {{ user.username }}

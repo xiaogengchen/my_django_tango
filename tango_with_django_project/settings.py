@@ -133,3 +133,4 @@ MEDIA_URL = '/media/'
 # print(os.path.dirname(os.path.dirname(__file__)))
 
 LOGIN_URL = '/rango/login/'
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
